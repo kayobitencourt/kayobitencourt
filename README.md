@@ -12,7 +12,7 @@
 
 - 👨‍💻 Intern @[Netuna](https://www.linkedin.com/company/netuna-digital/about/)
 - ❤ Passionate about web development
-- 🎓 Analysis and Systems Development Student @[Estacio](https://estacio.br/) and  Web Developer Student @ [Rocketseat](https://www.rocketseat.com.br/)
+- 🎓 Analysis and Systems Development Student @[Estacio](https://estacio.br/) and  Web Development Student @ [Rocketseat](https://www.rocketseat.com.br/)
 - 😁 Enthusiastic about new challenges
 
 ## Tech
