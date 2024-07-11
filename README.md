@@ -52,7 +52,7 @@
 
 <div margin-top="50px">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kayobitencourt&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+
 
 </div>
 
