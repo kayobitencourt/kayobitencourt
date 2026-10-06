@@ -1,0 +1,197 @@
+{
+  "title": "kayo@bitencourt",
+  "portrait": [
+    "                                                            ",
+    "                          CGCfft                            ",
+    "                   CCt;,,,:,,:..,,:iitL0880                 ",
+    "             Lf!ii:,,.,::;;::;::::,,,,.;LG8800              ",
+    "           !i::,. .... . ... ,;::::;::,..:!C8800            ",
+    "          :i..,..,...,,,,,. :;:,,,,:::::,,,,!G880           ",
+    "         !:., .. ....::::,,:i::,,::,,::,::;:,:tG80          ",
+    "        i:,,,,,.,,,........,,., ,,;;,,,:,::::. :L80         ",
+    "       i::::::;:,:;;;;::,,..,,:;::;;;,:::,,.,....L80        ",
+    "      Li::,,:::ittt!ii;:,,::;::iiii;i:,.,:,. ...:.L8        ",
+    "      f;,,.,,:!LLCLftff!i:;!;,,,;;;:;;:,,::,....,:.C        ",
+    "      t..,,,:tLLCCGCCLLLff!i!tt!ii!!iii:,;:,.,,,.:,t        ",
+    "      0:.,..ifLCCCCGGGGGGGGGGGG00GGGGCLf:::...,,,:,t        ",
+    "      8!...,itLCCCCCGGG00000000000GGGGGC;,,,::,,,:,f        ",
+    "     00f..,,:tLCCGGG00000000000800GCCLCLii;::::,,:.f8       ",
+    "     0GC:.,,iLf!!t!tLC0000800GCti;::::;i!fLt;,,,::.f0       ",
+    "     0CCi..:ti,:;i;;;;tCG000Gf!!tffLCLft!;!LLi,::,,tG       ",
+    "     GCL!,.i;;tLCGGGGCLLCG00GLG0GGG0GCCCCLtfLf;::,,fCG      ",
+    "     GCLt:.!!tffffLfLCGLLG00GCGCff!ii!!!fLLLLfi;;:,tLC      ",
+    "     0CLf;,tff!;ti,:LLCCfCGGCLCCfCfiiffi!LLLLLt;;,iLfL      ",
+    "     0GCL!:fffitLLLCCCCffGGGCCCCGCCGGCCCLCCCLLf;:L0ftL      ",
+    "     00CtL!fLLLLCCGGGGLtLGGGCLCGGCGGGGGGGGCCCLL!;CLCG       ",
+    "     80GtttfLCCGGGGGGGffG00GGCLC0GGGGG00GGGCCLff;iG0C       ",
+    "     80GGftffCCGGGGGGGLfL00GtfGLG00GG00GGGCCCLft!G00C       ",
+    "      80CCftfLCCGGG00GfL!fLfffCfG000000GGGCCLftt!G00C       ",
+    "      80CCLtfLLCGGG000CfffLCLffCGG0000GGGGCLLffttGLG        ",
+    "       0GLf!ffLCCGG0GC!itfGff!ttLLG00GGGGCCLfff!L0G         ",
+    "       00Cf!tffLCCGL!;!CLCCCCLLff;!fCGCCCLLffffitf!         ",
+    "        CLt!tttLLLL;;tftt!!!!tt!tti:tCCCLLLLfft;.,          ",
+    "        Lt;,itttff!iff!!!tftffftfLC!iLCLLLLLff!,,           ",
+    "         fi,,!tttftLLLLLLLLLLCCCCCCCLLLLLfffft:,            ",
+    "           :,:!tttfLffLLCCLLLCCCCLLCLLLLfLff!;:             ",
+    "            ,,:i!ttffffLCCCCGGGGCCCCLLLfffti:i              ",
+    "             ,,.;!!ttfLCGG00000GGGCLLfffti::!               ",
+    "             .,;;;;!!!fLCGG0GGGGCCLftt!;,,if                ",
+    "              0L:;,,:;i!fffffffttt!i;:,:iLCC                ",
+    "              @f;t!;,.,::;;;;;;;;::,:;tLGGCC                ",
+    "              @t!tLLfi:,,,,,:::::;i!fCGGGGGC                ",
+    "           0G8@LttLCCCLft!tttffLLLCCGGGGGGCCLtfL            ",
+    "        t@CCG0@CttLCCCGGCCCGGGGGGGGG000GGGCCLfffC0@GG       ",
+    "    ,,:.08GCGG88LtLCCCCCCGGGGGGGGGGGGGGGGGCCCLLG88G08000@i  ",
+    "  ,,,,,,08GCGG0@8LfLCCCCCCGGGGGGGGGGGGGGGCCCCG8@8008800@0.,,",
+    ",,,,,,,.G8GGGGG8@8CfLCCGCCCCCCCGGGGGGGGGCCC08@@80888808@!.,,",
+    ",,,,,,,.0800G0008@@0LLCCCCCCCCCCCGGGGGCCG0@@@888888888@L :,,",
+    ",,,,,,.;@88G000888@@8GLCGGGGCCGGGGGGGGG0@@@@8888888@@@G.,,,,",
+    ",,,,,,.i@88000000@@@@8CGGGGGGGGGG000088@@@@@8@@@888@@0:,:,,,",
+    ",,,,,,.i@008G8888Gt!tL88880000008008@@@@@@@@@@@@@@@@8;,:,,,,",
+    ",,,,,,.C@0888@8L;     ,!fLCG80CCL:,;!L8@@@@@@@@@@@@@!.:,,,,,",
+    ",,,,,,.C@8@@0f:..,::::,. !88G88@t.,.. ,!G@@@@@@@88@f.:,,,,,,",
+    ",,,,,,.;88C!,.,,,,,,,,,:.f@@00@@:,,,::,..iL8@@@@@@L.:,,,,,,,"
+  ],
+  "fields": [
+    [
+      2,
+      "OS",
+      "Arch Linux"
+    ],
+    [
+      3,
+      "Role",
+      "Front-end Developer / UI/UX Designer"
+    ],
+    [
+      4,
+      "Focus",
+      "Interfaces, performance, animations"
+    ],
+    [
+      5,
+      "Education",
+      "Análise e Desenvolvimento de Sistemas"
+    ],
+    [
+      7,
+      "Languages.Programming",
+      "TypeScript, JavaScript"
+    ],
+    [
+      8,
+      "Frontend",
+      "React, Next.js, Tailwind CSS"
+    ],
+    [
+      9,
+      "Backend",
+      "Node.js, Express"
+    ],
+    [
+      10,
+      "Database",
+      "PostgreSQL, Prisma"
+    ],
+    [
+      11,
+      "Tools",
+      "Git, Docker, pnpm, GSAP"
+    ],
+    [
+      12,
+      "Hobbies",
+      "Creative design, gaming, anime"
+    ],
+    [
+      15,
+      "Website",
+      "kayobitencourt.dev"
+    ],
+    [
+      16,
+      "Email",
+      "kayobitencourt.dev@gmail.com"
+    ],
+    [
+      19,
+      "Laudoparts",
+      "Next.js, Server Actions, Zod"
+    ],
+    [
+      20,
+      "PDV",
+      "Inventory, sales, barcode reader"
+    ]
+  ],
+  "sections": [
+    [
+      14,
+      "Contact"
+    ],
+    [
+      18,
+      "Projects"
+    ],
+    [
+      22,
+      "GitHub Stats"
+    ]
+  ],
+  "footer": "Code, design & motion.",
+  "portrait_light": [
+    "                                                            ",
+    "                          !i!ffL                            ",
+    "                   !!LG88888808@880GGLt:,::                 ",
+    "             tfCGG888@800000000000888880t;,,::              ",
+    "           CG0088@@88@@@@@@8@8000000008@@0Ci,:::            ",
+    "          0G888@88@@@888888@0008888000008888C;,::           ",
+    "         C088@@@@@@@88080888G00880088808000080L;,:          ",
+    "        G0888888888@@@@@@8@88@8@8800888088800@@8t,:         ",
+    "       G080000G080000008888@888000000880088@88@8@t,:        ",
+    "      tC0888880GLLLCGG008800000GGGG0G0888888@@@@88t,        ",
+    "      f0888880Cft!tfLffCG00CG8880000GG088088@@@@88@i        ",
+    "      L8@8880Ltt!!i!!tttffCGCLLCGGCCGCG88008@888@08L        ",
+    "      ;0@8@8Gft!!iiiiii;ii;iiii;;iiii!tf808@8888808L        ",
+    "      ,C@8@8GLt!!!!iii;;;;;;;;;;;;;;iii!G8880088808f        ",
+    "     ::f@8880Lt!!ii;;;;;;;:::::,:;i!!t!tGGG08088888f,       ",
+    "     ;i!8888GtfCCLCLti;;;::::;!LG000000GCftL0888888f:       ",
+    "     ;!!G@88LG800G0000L!i;::ifCCLfft!tfLC0CtfG80088L;       ",
+    "     ;!tC8@G0GLt!iiii!tt!;::iti;;ii;i!!!!tLftf00088L!i      ",
+    "     ;!tL8@CCLfffftft!itti;;i!i!ffCGGCCCfttftfG0088Lf!      ",
+    "     ;itfG8LfLC0LG80tt!!L!ii!ti!fifGGffGCfttttL008Gfft      ",
+    "     :i!tC0fffGLttf!!i!ffiii!!!!i!iii!!!t!!!ttfG0t:fLt      ",
+    "     :;!LtCffttt!!iiiitLtiii!t!ii!ii;;iiiii!!tfC0!f!i       ",
+    "     ::iLLLft!!iiiiiiiffi;:;i!t!;;ii;;;;iii!!tfLGCi:!       ",
+    "     ::iifLff!!iiiii;;tft;;iLfiti:;;;;;;ii!!!tfLCi;:i       ",
+    "      :;!!fLft!iiii;:iftCftfff!fi;;;;;;;ii!!tfLLCi:;!       ",
+    "      ::i!fLftt!ii;;;;!ffft!tff!;;;;;;;;ii!ttfLLLiti        ",
+    "       :;tLCfft!!ii;;!CGLfifLCLLtt;;;iiii!!tfffCf;;         ",
+    "       :;!fCLfft!iitCGC!t!!!!ttffGCf!ii!!ttffffGLfC         ",
+    "        itLCLLLfttt00LfLLCCCCLLCLLG0L!!!ttttfLL088          ",
+    "        tLG8GLLLffCGffCCCLfLfLLLLt!CCt!tttttfLC88           ",
+    "         fG88CLLLfLfttttttttt!!!i!!!tttttffffL08            ",
+    "           088CLLLffffft!!tft!!!!tt!tttfffffCG0             ",
+    "            888CCLLfffft!!!!iiii!!!!tttfffLG8C              ",
+    "             888GCCLLLt!ii;::;;iii!ttfffLG88C               ",
+    "             88GG00CCCft!i;;;iii!!tfLLCG88Gf                ",
+    "              ;t00880GGCLfffffLLLLCGG088Gt!!                ",
+    "               LGLC0888000000000008880Ltii!!                ",
+    "              .LCLttfG088888800000GCf!iiiii!                ",
+    "           ;i: tLLt!!!tfLCLLLffftt!!ii;;ii!!tLft            ",
+    "       @L !!i: !LLt!!!ii!!!iiiiiiiii;;;;ii!!tfff!:.;;       ",
+    "    8808;,i!i;.,tLt!!!iiiiii;;;;;;;;;;iiii!!!tti.,;;,::: G  ",
+    "  888888:,iiii: ,tft!!iiiiiiiiiiiiiiiiiiii!!!;, ,::,,::.:888",
+    "8888888@i,iii;i, ,!ft!!ii!!!!!iiiiiiiiiii!i;, .,:,,,,:, C@88",
+    "88888888:,;;;;:;, .;tt!!!!!!!!!!!iiiii!!i:.  .,,,,,,,, t@888",
+    "88888880.::i;:::,...,itiiiiiiiiiiiiiiii:.  ..,.,,,,.. ;@8888",
+    "888888@G ,:;;:;;:    .!iii;;;;;;;;;;::.  ........... :888888",
+    "8888888G.::,;:,,,iLCLt,,..::;;:::;:.   ...... .  ....0888888",
+    "888888@!.;,:, ,t0@@@@@8Cft!i::!!t080Ct,  ........ . C@888888",
+    "888888@! :..;L0@88888888@C,:i,..L@88@@8Ci.  ...... L@8888888",
+    "88888880.,!C8@8888888888@f  ::. 0888888@8Gt,..  . t@08888888"
+  ],
+  "portrait_font_size": 9.4,
+  "portrait_line_height": 10,
+  "portrait_start_y": 20
+}
