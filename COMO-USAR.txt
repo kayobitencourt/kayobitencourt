@@ -1,0 +1,48 @@
+COMO USAR
+
+1. Abra ou crie no GitHub o repositório público com o mesmo nome do seu usuário.
+2. Coloque README.md, profile.json, assets, scripts e .github na raiz.
+   Atenção: a pasta .github pode ficar oculta no gerenciador de arquivos.
+3. Faça o commit. O README escolhe a versão clara ou escura conforme o tema do GitHub.
+4. O workflow Update profile roda no primeiro envio dos arquivos e diariamente.
+   Também pode ser iniciado em Actions > Update profile > Run workflow.
+
+ESTATÍSTICAS
+
+O script descobre seu usuário por GITHUB_REPOSITORY_OWNER no GitHub Actions.
+Repos: número de repositórios públicos.
+Stars: soma das estrelas dos seus repositórios públicos.
+Followers: número de seguidores.
+Os valores -- são marcadores, substituídos após a primeira execução bem-sucedida.
+Nenhum número foi inventado. Não há necessidade de criar um token pessoal.
+Se o commit do workflow for bloqueado pela política do repositório, ajuste a
+permissão de escrita do GITHUB_TOKEN em Settings > Actions > General.
+A execução na sua conta ainda precisa acontecer após o envio do pacote.
+
+PERSONALIZAR
+
+Edite os campos de profile.json e envie o commit.
+O retrato ASCII foi convertido da foto enviada, com 60 colunas e 50 linhas.
+Você também encontra o texto puro em assets/portrait.txt.
+O contraste do retrato é adaptado para cada tema.
+A fotografia original não precisa ser publicada: ela não está incluída neste pacote.
+Os SVGs são autossuficientes e não dependem de imagens externas.
+Os caracteres do retrato têm contornos vetoriais e posições fixas, para
+manter a composição mesmo que o navegador use outra fonte.
+O gerador precisa de assets/ascii-glyphs.json para conservar essa correção.
+
+Para gerar localmente sem consultar o GitHub:
+python3 scripts/generate_profile.py
+
+Para buscar estatísticas localmente:
+python3 scripts/generate_profile.py --username SEU_USUARIO
+
+Referência visual: https://github.com/Andrew6rant
+Composição e gerador adaptados para Kayo Bitencourt.
+
+ATUALIZAR A VERSÃO JÁ PUBLICADA
+
+Substitua a pasta assets, scripts e .github pelos arquivos deste pacote.
+Mantenha profile.json se você tiver personalizado suas informações.
+README.md continua usando os mesmos caminhos dos SVGs.
+A correção foi verificada localmente; você precisa enviar o commit ao GitHub.

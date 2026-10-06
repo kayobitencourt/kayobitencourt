@@ -54,19 +54,37 @@ def rows(profile, stats):
 
 def render(profile, stats, theme):
     colors = THEMES[theme]
+    outlines = json.loads((ROOT/'assets/ascii-glyphs.json').read_text())
     lines = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530" role="img" aria-labelledby="title desc">',
+        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="985" height="530" viewBox="0 0 985 530" role="img" aria-labelledby="title desc">',
         '<title id="title">Kayo Bitencourt — GitHub Profile</title>',
         '<desc id="desc">Character portrait, Arch Linux, development stack, projects and contact information.</desc>',
         f'<rect width="985" height="530" rx="15" fill="{colors["bg"]}"/>',
-        '<g font-family="DejaVu Sans Mono,Consolas,monospace" xml:space="preserve">',
+        '<style>text,tspan{white-space:pre;}</style>',
+        '<defs>',
     ]
+    for code, path in outlines['glyphs'].items():
+        lines.append(f'<path id="ascii-{code}" d="{escape(path, quote=True)}"/>')
+    lines.append('</defs>')
     portrait = profile.get("portrait_light", profile["portrait"]) if theme == "light" else profile["portrait"]
     size = profile.get("portrait_font_size", 12)
     spacing = profile.get("portrait_line_height", 20)
     start_y = profile.get("portrait_start_y", 30)
+    scale = size / outlines['units_per_em']
+    advance = outlines['advance'] * scale
+    lines.append(f'<g id="ascii-portrait" fill="{colors["text"]}">')
     for row, text in enumerate(portrait):
-        lines.append(f'<text x="15" y="{start_y+row*spacing}" font-size="{size}" fill="{colors["text"]}">{escape(text)}</text>')
+        for column, character in enumerate(text):
+            if character == ' ':
+                continue
+            code = str(ord(character))
+            if code not in outlines['glyphs']:
+                raise ValueError(f'Portrait contains unsupported ASCII character: {character!r}')
+            x = 15 + column * advance
+            y = start_y + row * spacing
+            lines.append(f'<use href="#ascii-{code}" xlink:href="#ascii-{code}" transform="translate({x:.5f} {y}) scale({scale:.9f} {-scale:.9f})"/>')
+    lines.append('</g>')
+    lines.append('<g font-family="DejaVu Sans Mono,Consolas,monospace" xml:space="preserve">')
     for row, spans in rows(profile, stats):
         line = f'<text x="370" y="{30+row*20}" font-size="14">'
         line += ''.join(f'<tspan fill="{colors[style]}">{escape(text)}</tspan>' for style, text in spans)
